@@ -7,10 +7,14 @@
   <title>The Bridge</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="./styles/normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">  
 </head>
 
 <body>
   <header>
+    <img id="img-logo" src="https://thebridge.tech/wp-content/uploads/2024/07/Logo.svg" alt="Logo The Bridge">
     <nav>
       <ul>
         <li><a href="#">Bootcamps</a></li>
@@ -21,56 +25,56 @@
         <li><a href="#">Quiénes somos</a></li>
       </ul>
     </nav>
-    <button>Solicita información</button>
+    <button id="button-info">Solicita información</button>
   </header>
 
   <main>
-    <section>
+    <section id="background-img" class="img-texto">
       <h1>Tú quieres un trabajo mejor. Nosotros podemos ayudarte</h1>
       <p>Lideramos la formación tecnológica más avanzada en Inteligencia Artificial, Data Science, Desarrollo Web,
         Ciberseguridad, UX, Cloud y Marketing Digital</p>
     </section>
 
-    <section>
+    <section class="section-cursos">
       <h2>Bootcamps</h2>
-      <ul>
-        <li>Data Science</li>
-        <li>Ciberseguridad</li>
-        <li>Full Stack</li>
-        <li>UX / UI</li>
-        <li>Marketing Digital</li>
+      <ul class="section-ul-cursos">
+        <li class="section-li-curso" id="data-science">Data Science</li>
+        <li class="section-li-curso" id="ciberseguridad">Ciberseguridad</li>
+        <li class="section-li-curso" id="full-stack">Full Stack</li>
+        <li class="section-li-curso" id="ux-ui">UX / UI</li>
+        <li class="section-li-curso" id="mkt-digital">Marketing Digital</li>
       </ul>
     </section>
 
     <section>
       <h2>Másteres</h2>
-      <ul>
-        <li>Inteligencia Artificial & People Analytics</li>
-        <li>IA, Data & Financial Analytics</li>
-        <li>IA & Derecho Digital (LegalTech)</li>
+      <ul class="section-ul-cursos">
+        <li class="section-li-curso">Inteligencia Artificial & People Analytics</li>
+        <li class="section-li-curso">IA, Data & Financial Analytics</li>
+        <li class="section-li-curso">IA & Derecho Digital (LegalTech)</li>
       </ul>
     </section>
 
-    <section>
+    <section class="section-diferencia">
       <h2>¿Qué nos hace diferentes?</h2>
-      <div>
-        <article>
+      <div class="div-diferencias">
+        <article class="diferencias">
           <h3>Programas actualizados</h3>
           <p>Ofrecemos programas actualizados y adaptados a los retos y exigencias del mercado laboral actual. Revisamos
             continuamente los programas, siempre asesorados por empresas y profesionales.</p>
         </article>
-        <article>
+        <article class="diferencias">
           <h3>Un método de aprendizaje único</h3>
           <p>Conseguimos resultados superiores a través de formatos educativos innovadores que facilitan un aprendizaje
             efectivo. Desarrollamos una formación 100% práctica a través del uso de las tecnologías de última
             generación.</p>
         </article>
-        <article>
+        <article class="diferencias">
           <h3>Profesores expertos y en activo</h3>
           <p>El equipo docente de The Bridge está formado tanto por profesores del ámbito académico como por
             profesionales en activo que trabajan en su día a día en lo que enseñan en las aulas.</p>
         </article>
-        <article>
+        <article class="diferencias">
           <h3>Nuestra comunidad Talent Hub</h3>
           <p>Un espacio abierto para nuestros alumni y empresas colaboradoras con ofertas de empleo, mentores, contenido
             especializado para cada disciplina, eventos, masterclass, y una gran comunidad para apoyar y hacer
