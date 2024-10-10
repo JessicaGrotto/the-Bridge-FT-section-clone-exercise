@@ -37,21 +37,68 @@ a{
   text-transform: uppercase;
   padding: 10px;
 }
+/*Section primera img fundo*/
+main{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
 #background-img{
   background-image: url(./assets/poratadacover-scaled-1.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
 }
-.section-ul-cursos{
+.img-texto{
   display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: white;
+  flex-wrap: wrap;
+  padding-right: 35%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-left: 5%;
+  font-size: 30px;
+}
+.section-background{
+  padding: 20px;
+}
+#p-background{
+  font-size: 20px;
+}
+/*Bootcamps y Másteres*/
+.titulo-cursos{
+  margin-left: 50px;
 }
 .section-li-curso{
   list-style-type: none;
+  position: absolute;
+  color: white;
+  font-size: 15px;
+  bottom: 30px;
+  left: 25px;
+  padding-left: 20px;
 }
-#data-science{
-  background-image: url(https://thebridge.tech/wp-content/uploads/2024/10/estudiar-data-science-1.png);
+.section-li-curso::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 15px;
+    height: 15px;
+    background-color: red;
 }
+.img-cursos{
+  width: 200px;
+}
+.cursos-container{
+  display: inline-block;
+  position: relative;
+}
+
+/*Qué nos hace diferentes*/
 .section-diferencia{
   background-color: #d83334;
   color: white;
